@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JustLightApp</string>
+    <string name="welcome">JustLight</string>
+    <string name="radio_user">Customer</string>
+    <string name="radio_partner">Partner</string>
+    <string name="btn_signIn">SignIn</string>
+</resources>
