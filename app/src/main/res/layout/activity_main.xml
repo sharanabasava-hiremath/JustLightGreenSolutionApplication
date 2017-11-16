@@ -14,24 +14,16 @@
         android:src="@mipmap/ic_launcher"
         android:contentDescription="@string/app_name"/>
     <TextView
-        android:paddingTop="10dp"
-        android:paddingLeft="100dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_horizontal"
         android:text="JustLight"
         android:textColor="@color/white"
-        android:textSize="40sp"/>
+        android:textSize="35sp"/>
     <TextView
-        android:paddingLeft="100dp"
-        android:paddingBottom="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginLeft="5dp"
+        android:layout_gravity="center_horizontal"
         android:text="Empower your way"
         android:textColor="@color/white"
         android:textSize="20sp"/>
@@ -40,7 +32,7 @@
         android:id="@+id/radioAppUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingTop="50dp"
+        android:paddingTop="40dp"
         android:paddingLeft="120dp">
 
         <RadioButton
@@ -48,7 +40,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/radio_user"
-            android:buttonTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimaryDark"
             android:textSize="20dp"
             android:textColor="@color/textColorPrimary"
             android:checked="true" />
@@ -58,11 +50,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20dp"
-            android:buttonTint="@color/colorPrimary"
+            android:buttonTint="@color/colorPrimaryDark"
             android:textColor="@color/textColorPrimary"
             android:text="@string/radio_partner"
             />
     </RadioGroup>
-
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="180dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/textColorPrimary"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:text= "@string/btn_continue"
+        android:onClick="continue"/>
 
 </LinearLayout>
