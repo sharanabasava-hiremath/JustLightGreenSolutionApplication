@@ -4,4 +4,8 @@
     <string name="radio_user">Customer</string>
     <string name="radio_partner">Partner</string>
     <string name="btn_continue">Continue</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirmPassword">Confirm Password</string>
 </resources>
